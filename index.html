@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Барбершоп «БОРОДИНСКИЙ»</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/152.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo/logo-index.svg" width="371" height="155" alt="Логотип барбершопа «БОРОДИНСКИЙ»">
+      </a>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="site-navigation">
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="price.html">Прайс-лист</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <div class="user-navigation">
+            <a class="login-link" href="#">Вход</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Барбершоп «БОРОДИНСКИЙ»</h1>
+    <section class="features">
+      <h2>Преимущества</h2>
+      <ul class="features-list">
+        <li class="feature-item">
+          <h3>БЫСТРО</h3>
+          <p>
+            МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ
+            СТРИЖКИ-МИНУТКИ!
+          </p>
+        </li>
+        <li class="feature-item">
+          <h3>КРУТО</h3>
+          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+            МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+          </p>
+        </li>
+        <li class="feature-item">
+          <h3>ДОРОГО</h3>
+          <p> НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ
+            ОПРЕДЕЛЕННЫЙ СТАТУС?
+          </p>
+        </li>
+      </ul>
+    </section>
+    <div class="index-columns">
+      <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+            </p>
+            <time datetime="2022-01-11">11 января</time>
+          </li>
+          <li class="news-item">
+            <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ
+              СТРОЙНЫЕ РЯДЫ
+            </p>
+            <time datetime="2022-01-18">18 января</time>
+          </li>
+        </ul>
+        <a class="button" href="№">Все новости</a>
+      </section>
+      <section class="gallery">
+        <h2>Фотогалерея</h2>
+        <div class="gallery-container">
+          <figure class="gallery-content">
+            <a href="#">
+              <img src="img/photo.jpg" width="286" height="164" alt="Приемная">
+            </a>
+          </figure>
+          <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+          <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+        </div>
+      </section>
+    </div>
+    <div class="index-columns">
+      <section class="contacts">
+        <h2>Контактная информация</h2>
+        <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+          ТЕЛЕФОН:<a class="contacts-phone" href="tel:+78126660266"> +7 (812) 666-02-66</a>
+        </p>
+        <p>ВРЕМЯ РАБОТЫ:<br>
+          ПН—ПТ: С 10:00 ДО 22:00<br>
+          СБ—ВС: С 10:00 ДО 19:00
+        </p>
+        <a class="button" href="№">Как проехать</a>
+        <a class="button" href="№">Обратная связь</a>
+      </section>
+      <section class="appointment">
+        <h2>Записаться</h2>
+        <p class="appointment-info">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="get">
+          <p class="appointment-item">
+            <label>Дата
+              <input type="text" name="date" placeholder="01.01.2020">
+            </label>
+          </p>
+          <p class="appointment-item">
+            <label>Время
+              <input type="text" name="time" placeholder="10:00">
+            </label>
+          </p>
+          <p class="appointment-item">
+            <label>Ваше имя
+              <input type="text" name="name" placeholder="Борода">
+            </label>
+          </p>
+          <p class="appointment-item">
+            <label>Телефон
+              <input type="text" name="tel" placeholder="+7 123 456 78 90">
+            </label>
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <section class="footer-contacts">
+        <h2>Как нас найти</h2>
+        <p>
+          БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+          <a class="footer-address" href="#">КАК НАС НАЙТИ?</a><br>
+          ТЕЛЕФОН: <a class="footer-phone" href="tel:+78126660266">+7 (812) 666-02-66</a>
+        </p>
+      </section>
+      <section class="footer-social">
+        <h2>Давайте дружить!</h2>
+        <ul>
+          <li>
+            <a class="social-button" href="#">
+              <span>Вконтакте</span>
+              <svg width="27" height="15" viewbox="0 0 27 15"><path d="m26.785 13.47-.092-.168a13.489 13.489 0 0 0-2.68-2.98A15.088 15.088 0 0 1 22.887 9.2a.967.967 0 0 1-.215-1.182 9.844 9.844 0 0 1 1.248-1.777l.91-1.162c1.618-2.085 2.3-3.41 2.047-3.972l-.092-.129a.815.815 0 0 0-.409-.218 2.287 2.287 0 0 0-.9 0h-3.98a.442.442 0 0 0-.277 0h-.307a.506.506 0 0 0-.153.139.992.992 0 0 0-.154.238 22.97 22.97 0 0 1-1.494 3.059c-.348.556-.665.993-.962 1.46a7 7 0 0 1-.747.883 5.85 5.85 0 0 1-.542.477c-.153.119-.276.169-.358.149l-.235-.05a.924.924 0 0 1-.318-.338 1.321 1.321 0 0 1-.163-.526V1.614a3.17 3.17 0 0 0 0-.616 2.186 2.186 0 0 0-.144-.437.74.74 0 0 0-.286-.338 1.909 1.909 0 0 0-.512-.178 9.94 9.94 0 0 0-1.882 0 9.287 9.287 0 0 0-3.346.308c-.203.1-.384.239-.532.407-.174.198-.195.307-.072.327.235.011.465.069.677.17.21.1.398.242.55.416l.083.16c.092.203.16.416.204.635.061.328.102.66.123.993.041.565.041 1.132 0 1.698 0 .476-.092.844-.133 1.102a2 2 0 0 1-.276.675c-.045.108-.1.21-.164.308l-.072.07a1.24 1.24 0 0 1-.378.07.97.97 0 0 1-.41-.23 3.623 3.623 0 0 1-.583-.525 7.732 7.732 0 0 1-.675-.924c-.288-.46-.551-.934-.788-1.42l-.235-.387-.583-1.113c-.238-.465-.45-.942-.635-1.43A.907.907 0 0 0 5.38.92h-.072a.882.882 0 0 0-.184-.16 1.657 1.657 0 0 0-.369-.09L.918.7A1.052 1.052 0 0 0 .12.978H.008a.78.78 0 0 0 0 .219c.011.125.039.248.082.367a36.205 36.205 0 0 0 1.84 3.724 43.045 43.045 0 0 0 1.71 2.86c.48.725 1.022 1.41 1.513 2.056.492.645.88 1.062 1.024 1.24l.378.408.348.338c.323.28.665.539 1.023.774.473.335.965.644 1.474.924.58.312 1.2.552 1.842.715a6.504 6.504 0 0 0 2.066.278h1.617c.28-.003.547-.11.747-.298v-.07a1.03 1.03 0 0 0 .102-.248 2.21 2.21 0 0 0 0-.367 4.54 4.54 0 0 1 .092-1.053c.042-.245.12-.483.236-.705.077-.15.177-.287.297-.407l.235-.199h.112a.937.937 0 0 1 .799.209c.317.228.602.495.849.794.266.308.593.665.962 1.043.309.325.652.617 1.023.874l.286.159c.228.129.473.229.727.298.249.087.517.11.777.069l3.633-.1c.284.018.567-.04.819-.168a.663.663 0 0 0 .347-.368.868.868 0 0 0 0-.456 1.514 1.514 0 0 0-.102-.368l-.082-.05Z" fill="#fff"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <span>Фейсбук</span>
+              <svg width="11" height="23" viewbox="0 0 11 23">
+                <path d="M3.62378 1.13123C4.59355 0.376244 5.82388 -0.0252255 7.08674 0.00122876H11V3.86123H8.46979C8.19886 3.85027 7.93242 3.92836 7.7169 4.08187C7.50138 4.23537 7.35045 4.45457 7.29045 4.70123V7.28123H11C10.9142 8.52123 10.7212 9.76123 10.5604 11.0012H7.34405V22.0012H2.40156V11.0012H0V7.30123H2.38012V3.71123C2.43182 2.7359 2.87591 1.81461 3.62378 1.13123Z" fill="#fff"/>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <span>Инстаграм</span>
+              <svg width="20" height="20" viewbox="0 0 20 20">
+                <path d="M18 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2L0 18C0 18.5304 0.210714 19.0391 0.585786 19.4142C0.960859 19.7893 1.46957 20 2 20H18C18.5304 20 19.0391 19.7893 19.4142 19.4142C19.7893 19.0391 20 18.5304 20 18V2C20 1.46957 19.7893 0.960859 19.4142 0.585786C19.0391 0.210714 18.5304 0 18 0V0ZM10 6C10.7911 6 11.5645 6.2346 12.2223 6.67412C12.8801 7.11365 13.3928 7.73836 13.6955 8.46927C13.9983 9.20017 14.0775 10.0044 13.9231 10.7804C13.7688 11.5563 13.3878 12.269 12.8284 12.8284C12.269 13.3878 11.5563 13.7688 10.7804 13.9231C10.0044 14.0775 9.20017 13.9983 8.46927 13.6955C7.73836 13.3928 7.11365 12.8801 6.67412 12.2223C6.2346 11.5645 6 10.7911 6 10C6 8.93913 6.42143 7.92172 7.17157 7.17157C7.92172 6.42143 8.93913 6 10 6ZM2.5 18C2.43825 18.0041 2.37631 17.9959 2.31772 17.976C2.25914 17.956 2.20507 17.9247 2.15861 17.8839C2.11215 17.843 2.07423 17.7933 2.04701 17.7377C2.01979 17.6822 2.00382 17.6218 2 17.56V9H4.1C4.01687 9.32646 3.98316 9.66354 4 10C4 11.5913 4.63214 13.1174 5.75736 14.2426C6.88258 15.3679 8.4087 16 10 16C11.5913 16 13.1174 15.3679 14.2426 14.2426C15.3679 13.1174 16 11.5913 16 10C16.0168 9.66354 15.9831 9.32646 15.9 9H18V17.5C18.0041 17.5617 17.9959 17.6237 17.976 17.6823C17.956 17.7409 17.9247 17.7949 17.8839 17.8414C17.843 17.8878 17.7933 17.9258 17.7377 17.953C17.6822 17.9802 17.6218 17.9962 17.56 18H2.5ZM18 4.5C18.0041 4.56175 17.9959 4.62369 17.976 4.68228C17.956 4.74086 17.9247 4.79493 17.8839 4.84139C17.843 4.88785 17.7933 4.92577 17.7377 4.95299C17.6822 4.98021 17.6218 4.99618 17.56 5H15.5C15.4383 5.00407 15.3763 4.9959 15.3177 4.97597C15.2591 4.95604 15.2051 4.92473 15.1586 4.88385C15.1122 4.84297 15.0742 4.79332 15.047 4.73774C15.0198 4.68217 15.0038 4.62176 15 4.56V2.5C14.9959 2.43825 15.0041 2.37631 15.024 2.31772C15.044 2.25914 15.0753 2.20507 15.1161 2.15861C15.157 2.11215 15.2067 2.07423 15.2623 2.04701C15.3178 2.01979 15.3782 2.00382 15.44 2H17.5C17.5617 1.99593 17.6237 2.0041 17.6823 2.02403C17.7409 2.04396 17.7949 2.07527 17.8414 2.11615C17.8878 2.15703 17.9258 2.20668 17.953 2.26226C17.9802 2.31783 17.9962 2.37824 18 2.44V4.5Z" fill="#fff"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="#">HTMLACADEMY</a>
+      </p>
+    </div>
+  </footer>
+
+  <section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="get">
+      <p>
+        <label for="login-login"></label>
+        <input class="login-icon-user" type="email" name="login" id="login-login" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="login-password"></label>
+        <input class="login-icon-password" type="password" name="password" id="login-password" placeholder="••••••••">
+      </p>
+      <p class="login-help">
+        <label> Запомните меня
+          <input type="checkbox" name="remember" checked>
+        </label>
+      </p>
+      <a class="restore" href="#">Я забыл пароль</a>
+      <button class="button" type="submit">Войти</button>
+    </form>
+    <button class="modal-close" type="button">Закрыть</button>
+  </section>
+
+  <section class="modal modal-map">
+    <h2>Как до нас добраться</h2>
+    <!--Здесь будет карта-->
+    <button class="modal-close" type="button">Закрыть</button>
+  </section>
+
+  <div class="test">
+
+  </div>
+</body>
+
+</html>

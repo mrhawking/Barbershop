@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/152.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body class="page-body inner-page">
+  <header class="main-header">
+    <nav class="main-navigation container">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo/logo.svg" width="371" height="155" alt="Логотип барбершопа «БОРОДИНСКИЙ»">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="price.html">Прайс-лист</a></li>
+        <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <div class="user-navigation">
+        <a class="login-link" href="#">Вход</a>
+      </div>
+    </nav>
+  </header>
+  <main class="page-catalog container">
+    <h1 class="page-title">Средства для ухода</h1>
+    <ul class="breadcrumbs">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Магазин</a></li>
+      <li class="breadcrumbs-current">Средства для ухода</li>
+    </ul>
+    <section class="filters">
+      <h2>Фильтр товаров</h2>
+      <form class="filter" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset>
+          <legend>Производители</legend>
+          <ul>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+              <label for="filter-baxter-of-california">Baxter of California</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="mr-natty" id="filter-mr-natty">
+              <label for="filter-mr-natty">Mr Natty</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="suavecito" id="filter-suavecito" checked>
+              <label for="filter-suavecito">Suavecito</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+              <label for="filter-malin-goetz">Malin+Goetz</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="murrays" id="filter-murrays">
+              <label for="filter-murrays">Murray's</label>
+            </li>
+            <li class="filter-option filter-checkbox">
+              <input class="filter-input-checkbox filter-input" type="checkbox" name="american-crew" id="filter-american-crew" checked>
+              <label for="filter-american-crew">American Crew</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Группы товаров</legend>
+          <ul>
+            <li class="filter-option filter-radio">
+              <input class="filter-input-radio filter-input" type="radio" name="group-of-products" value="shaving-accessories" id="filter-shaving-accessories">
+              <label for="filter-shaving-accessories">Бритвенные принадлежности</label>
+            </li>
+            <li class="filter-option filter-radio">
+              <input class="filter-input-radio filter-input" type="radio" name="group-of-products" value="care-products" id="filter-care-products" checked>
+              <label for="filter-care-products">Бритвенные принадлежности</label>
+            </li>
+            <li class="filter-option filter-radio">
+              <input class="filter-input-radio filter-input" type="radio" name="group-of-products" value="accessories" id="filter-accessories">
+              <label for="filter-accessories">Аксессуары</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="filter-button button" type="submit">Показать</button>
+      </form>
+    </section>
+    <section class="catalog">
+      <h2>Список средств для ухода</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          <a href="#">
+            <h3>
+              <span class="catalog-category">Набор для путешествий</span>
+              <span class="catalog-item-title">«Baxter of California»</span>
+            </h3>
+            <p class="catalog-item-image">
+              <img src="img/products/product1.jpg" width="220" height="165"
+                alt="Набор для путешествий «Baxter of California»">
+            </p>
+          </a>
+          <p class="catalog-item-price">
+            <b>2 900 ₽</b>
+            <button class="button" type="button">Купить</button>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <a href="#">
+            <h3>
+              <span class="catalog-category">Увлажняющий кондиционер</span>
+              <span class="catalog-item-title">«Baxter of California»</span>
+            </h3>
+            <p class="catalog-item-image">
+              <img src="img/products/product2.jpg" width="220" height="165"
+                alt="Увлажняющий кондиционер «Baxter of California»">
+            </p>
+          </a>
+          <p class="catalog-item-price">
+            <b>750 ₽</b>
+            <button class="button" type="button">Купить</button>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <a href="#">
+            <h3>
+              <span class="catalog-category">Гель для волос</span>
+              <span class="catalog-item-title">«SUAVECITO»</span>
+            </h3>
+            <p class="catalog-item-image">
+              <img src="img/products/product3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»">
+            </p>
+          </a>
+          <p class="catalog-item-price">
+            <b>290 ₽</b>
+            <button class="button" type="button">Купить</button>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <a href="#">
+            <h3>
+              <span class="catalog-category">Глина для укладки волос</span>
+              <span class="catalog-item-title">«American crew»</span>
+            </h3>
+            <p class="catalog-item-image">
+              <img src="img/products/product4.jpg" width="220" height="165"
+                alt="Глина для укладки волос «American crew»">
+            </p>
+          </a>
+          <p class="catalog-item-price">
+            <b>500 ₽</b>
+            <button class="button" type="button">Купить</button>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <a href="#">
+            <h3>
+              <span class="catalog-category">Гель для волос</span>
+              <span class="catalog-item-title">«AMERICAN CREW»</span>
+            </h3>
+            <p class="catalog-item-image">
+              <img src="img/products/product5.jpg" width="220" height="165" alt="Гель для волос «AMERICAN CREW»">
+            </p>
+          </a>
+          <p class="catalog-item-price">
+            <b>300 ₽</b>
+            <button class="button" type="button">Купить</button>
+          </p>
+        </li>
+        <li class="catalog-item">
+          <a href="#">
+            <h3>
+              <span class="catalog-category">Набор для бритья</span>
+              <span class="catalog-item-title">«Baxter of California»</span>
+            </h3>
+            <p class="catalog-item-image">
+              <img src="img/products/product6.jpg" width="220" height="165"
+                alt="Набор для бритья «Baxter of California»">
+            </p>
+          </a>
+          <p class="catalog-item-price">
+            <b>3 900 ₽</b>
+            <button class="button" type="button">Купить</button>
+          </p>
+        </li>
+      </ul>
+      <ul class="pagination-list">
+        <li class="pagination-item"><a href="#">1</a></li>
+        <li class="pagination-item pagination-item-current"><a>2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">4</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h2>Как нас найти</h2>
+      <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+        КАК НАС НАЙТИ?<br>
+        ТЕЛЕФОН: <a href="tel:+78126660266">+7 (812) 666-02-66</a>
+      </p>
+    </section>
+    <section>
+      <h2>Давайте дружить!</h2>
+      <ul>
+        <li>
+          <a href="#">Вконтакте</a>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#">Инстаграм</a>
+        </li>
+      </ul>
+    </section>
+    <p>Разработано</p>
+    <a href="#">HTMLACADEMY</a>
+  </footer>
+  <section>
+    <h2>Личный кабинет</h2>
+    <p>Введите пожалуйста свой логин и пароль</p>
+    <form action="https://echo.htmlacademy.ru" method="get">
+      <p>
+        <label for="login-login"></label>
+        <input type="email" name="login" id="login-login" placeholder="email@example.com">
+      </p>
+      <p>
+        <label for="login-password"></label>
+        <input type="password" name="password" id="login-password" placeholder="••••••••">
+      </p>
+      <p>
+        <label> Запомните меня
+          <input type="checkbox" name="remember" checked>
+        </label>
+      </p>
+      <a href="#">Я забыл пароль</a>
+      <button type="submit">Войти</button>
+    </form>
+    <button type="button">Закрыть</button>
+  </section>
+</body>
+
+</html>
